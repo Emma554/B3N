@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('assets/fonts/Amaranth/Amaranth-Regular.eot');
+    src: url('assets/fonts/Amaranth/Amaranth-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Amaranth/Amaranth-Regular.woff2') format('woff2'),
+        url('assets/fonts/Amaranth/Amaranth-Regular.woff') format('woff'),
+        url('assets/fonts/Amaranth/Amaranth-Regular.ttf') format('truetype'),
+        url('assets/fonts/Amaranth/Amaranth-Regular.svg#Amaranth-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('assets/fonts/Lora/Lora-MediumItalic.eot');
+    src: url('assets/fonts/Lora/Lora-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Lora/Lora-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/Lora/Lora-MediumItalic.woff') format('woff'),
+        url('assets/fonts/Lora/Lora-MediumItalic.ttf') format('truetype'),
+        url('assets/fonts/Lora/Lora-MediumItalic.svg#Lora-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+*{
+    font-family: 'Amaranth',serif;
+}
+
+:root{
+    --or: #F96400;
+    --blue: #003C70;
+    
+}
+.bg-or{
+    background-color: var(--or) !important;
+}
+.text-or{
+    color: var(--or) !important;
+}
+.border-or{
+    border-color:   var(--or) !important;
+}
+.btn-or{
+    transition: all .5s ease;
+    color: var(--or);
+    border-color:   var(--or) !important;
+}
+.btn-or:hover{
+    
+    color: white !important;
+    background-color: var(--or) !important;
+    
+}
+
+.bg-blue{
+    background-color: var(--blue) !important;
+}
+.text-blue{
+    color: var(--blue) !important;
+}
+.border-blue{
+    border-color:   var(--blue) !important;
+    
+}
+.btn-blue{
+    transition: all .5s ease;
+    color: var(--blue);
+    border-color:   var(--blue) !important;
+}
+.btn-blue:hover{
+    
+    color: white !important;
+    background-color: var(--blue) !important;
+}
+
+.lora{
+    font-family: 'Lora',serif;
+}
+

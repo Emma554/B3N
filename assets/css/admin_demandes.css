@@ -1,0 +1,13 @@
+
+.card-car{
+    display: flex;
+    max-height: 310px;
+    width: 40rem;
+}
+.card-car img{
+    width: 200px;
+    height: 310px;
+}
+.card-content{
+    width: 30rem;
+}

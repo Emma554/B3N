@@ -1,0 +1,29 @@
+body {margin:2em;}
+td:last-child {text-align:center;}
+nav{
+    background-image: url('/assets/imgs/166376-mclaren_12c-mclaren_automotive-supercar-camion-roue-550x310.jpg');
+}
+
+.register-form h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 150px 0px;
+    line-height: 60px;
+}
+.register-form .form-control {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ff7f07;
+    border-radius: 0px !important;
+    color: #fff;
+}
+.register-form .form-control:focus,
+.register-form .form-control:hover{
+  border:none;
+  margin: 0 auto;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}

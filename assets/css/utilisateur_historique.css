@@ -1,0 +1,109 @@
+*{
+    font-family: 'Amaranth', sans-serif;
+}
+/* body{
+    margin:0 auto;
+    padding: 0;
+} */
+#navbar{
+    background: url("../imgs/website/167232-phare_de_supercar-mclaren_automotive-supercar-mclaren_gt-capuchon-3840x2160.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top-page{
+    background: url("../imgs/IMG-20220511-WA0000.jpg");
+    background-size: cover;
+    background-position: center;
+    /* filter: brightness(40%); */
+    display: flex;
+    align-items: center;
+    height: 80px;
+    box-shadow: 1px 1px 5px black;
+}
+.top-page h1{
+    padding: 130px;
+    font-size: 3em;
+    color: white;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-left: 40%;
+}
+.nav-link{
+    font-style: normal;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    background: orangered;
+    width: 90%;
+    height: 5px;
+    bottom: 0;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+.nav-link:hover::before{
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+.box{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%,-50%);
+}
+.box h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]{
+    background: black;
+    color: white;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    background: #ff5722;
+}
+.table-historique{
+    padding-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
